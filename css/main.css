@@ -4,10 +4,9 @@
 }
 
 body {
-  background-image: url(../img/background1.png);
-  background-repeat: no-repeat;
-  height: 1060px;
-  width: 1280px;
+  background-image: url(../img/back.png);
+  background-repeat: repeat-x;
+  height: 1022px;
 }
 
 .google {
