@@ -9,10 +9,6 @@ body {
   height: 1022px;
 }
 
-.google {
-  line-height: 0;
-}
-
 .wrapper {
   display: flex;
   width: 1000px;
@@ -68,6 +64,11 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 }
+
+.country a {
+  text-decoration: none;
+}
+
 
 figcaption {
   font-family: TahomaRegular;
@@ -145,6 +146,8 @@ figcaption {
 }
 
 .information {
+  display: flex;
+  flex-direction: column;
   width: 208px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
@@ -152,15 +155,20 @@ figcaption {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   width: 580px;
   background-color: #ffffff;
 }
 
 .news {
+  display: flex;
+  flex-direction: column;
   width: 208px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
   background-color: #edeef0;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -178,7 +186,6 @@ h2 {
   font-family: TahomaRegular;
   color: #424c43;
   padding-top: 8px;
-  font-size: 14px;
   justify-content: center;
 }
 
