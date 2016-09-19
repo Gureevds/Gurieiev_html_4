@@ -6,13 +6,12 @@
 body {
   background-image: url(../img/back.png);
   background-repeat: repeat-x;
-  height: 1022px;
+  background-color: #0c739f;
 }
 
 .wrapper {
   display: flex;
   width: 1000px;
-  height: 991px;
   margin: 0 auto;
   flex-direction: column;
   box-shadow: 0 0 5px;
@@ -33,11 +32,7 @@ body {
 }
 
 .box {
-  display: flex;
-  flex-wrap: wrap;
   height: 175px;
-  flex-direction: column;
-  width: 325px;
 }
 
 .contacts {
@@ -60,26 +55,54 @@ body {
 .country {
   height: 88px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: flex-end;
+  justify-content: space-between;
 }
 
 .country a {
-  text-decoration: none;
-}
-
-
-figcaption {
   font-family: TahomaRegular;
   font-size: 10px;
+  width: 50px;
   color: #128aa7;
+  text-decoration: none;
   text-align: center;
+  padding-top: 50px;
 }
 
-.country img {
-  display: block;
-  margin: 0 auto;
+.a1 {
+  background-image: url(../img/countries2.png);
+  background-repeat: no-repeat;
+  background-position: 4px 0;
+}
+
+.a2 {
+  background-image: url(../img/countries2.png);
+  background-repeat: no-repeat;
+  background-position: -54px 0;;
+}
+
+.a3 {
+  background-image: url(../img/countries2.png);
+  background-repeat: no-repeat;
+  background-position: -111px 0;
+}
+
+.a4 {
+  background-image: url(../img/countries2.png);
+  background-repeat: no-repeat;
+  background-position: -166px 0;
+}
+
+.a5 {
+  background-image: url(../img/countries2.png);
+  background-repeat: no-repeat;
+  background-position: -220px 0;
+}
+
+.a6 {
+  background-image: url(../img/countries2.png);
+  background-repeat: no-repeat;
+  background-position: -279px 0;
 }
 
 .photo{
@@ -139,9 +162,6 @@ figcaption {
 
 .content {
   display: flex;
-  height: 551px;
-  flex-direction: row;
-  align-items: stretch;
   border-bottom: 3px solid #031d28;
 }
 
